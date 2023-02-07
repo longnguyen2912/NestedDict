@@ -47,7 +47,7 @@ dojo = {
 
 def printInfo(dictionary):
     for key, values in dictionary.items():
-        print(f'{key} : {len(values)}')
+        print(f'{key.upper()} : {len(values)}')
         for value in values:
             print(value)
 
